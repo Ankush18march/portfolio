@@ -25,7 +25,7 @@ function downloadResume() {
     // Anchor tag create karke download attribute set karein
     var link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = 'Ankush_Shakya.pdf'; // Resume file ka naam
+    link.download = 'Ankush_Resume.pdf'; // Resume file ka naam
 
     // Anchor tag ko click karein
     document.body.appendChild(link);
